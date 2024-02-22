@@ -1,4 +1,3 @@
-///Function to get songe info when an image is clicked
 let art;
 let showArt;
 /**
@@ -7,7 +6,6 @@ let showArt;
  */
 
 async function clickedEvent(img_index, item_index) {
-  // get song name
   let title =
     document.getElementsByTagName("img")[img_index].attributes[1].value;
 
@@ -34,7 +32,6 @@ async function clickedEvent(img_index, item_index) {
   let result2 = await fetch(request2);
   let response2 = await result2.json();
 
-  //  Get, Title
   let art_bio = `
   Department: ${response2.data.department_title}
   Title: ${response2.data.title}
