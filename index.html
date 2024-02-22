@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+    <title>Chicago Art Institute</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <figure
+          class="gallery__item gallery__item--1"
+          id="fig1"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event); "
+        >
+          <img
+            src="images/The Old Guitarist.jpeg"
+            alt="The Old Guitarist"
+            class="gallery_img"
+          />
+        </figure>
+        <figure
+          class="gallery__item gallery__item--2"
+          id="fig2"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event) "
+        >
+          <img
+            src="images/starry-night.jpeg"
+            alt="Starry night"
+            class="gallery_img"
+          />
+        </figure>
+        <figure
+          class="gallery__item gallery__item--3"
+          id="fig3"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event);"
+        >
+          <img
+            src="images/Nightlife.jpeg"
+            alt="Nightlife"
+            class="gallery_img"
+          />
+        </figure>
+        <figure
+          class="gallery__item gallery__item--4"
+          id="fig4"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event);"
+        >
+          <img
+            src="images/Improvisation No. 30.jpeg"
+            alt="Improvisation No. 30 (Cannons)"
+            class="gallery_img"
+          />
+        </figure>
+        <figure
+          class="gallery__item gallery__item--5"
+          id="fig5"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event);"
+        >
+          <img
+            src="images/A Sunday on La Grande Jatte.jpeg"
+            alt="A Sunday on La Grande Jatte — 1884"
+            class="gallery_img"
+          />
+        </figure>
+        <figure
+          class="gallery__item gallery__item--6"
+          id="fig6"
+          onclick="event.stopPropagation(); getArtInfo(this.id,event);"
+        >
+          <img
+            src="images/Night Hawks.jpeg"
+            alt="Nighthawks"
+            class="gallery_img"
+          />
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>
